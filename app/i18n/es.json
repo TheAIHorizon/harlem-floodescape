@@ -1,0 +1,346 @@
+{
+  "app": {
+    "name": "Harlem FloodEscape",
+    "tagline": "Resiliencia ante inundaciones en East Harlem — El Barrio"
+  },
+  "nav": {
+    "home": "Inicio",
+    "map": "Mapa",
+    "report": "Reportar",
+    "plan": "Mi Plan"
+  },
+  "lang": {
+    "toggleAria": "Cambiar idioma. Idioma actual: español",
+    "en": "EN",
+    "es": "ES"
+  },
+  "theme": {
+    "toggle": "Tema",
+    "toggleAria": "Cambiar entre tema claro y oscuro"
+  },
+  "a11y": {
+    "skip": "Saltar al contenido principal",
+    "statusLive": "Anuncios del estado de inundación",
+    "updatesLive": "Actualizaciones de la aplicación",
+    "mainNav": "Navegación principal",
+    "closeDialog": "Cerrar ventana"
+  },
+  "common": {
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "loading": "Cargando…",
+    "unavailable": "No disponible",
+    "error": "Algo salió mal",
+    "back": "Atrás",
+    "in": "pulg",
+    "cm": "cm",
+    "minutes": "min",
+    "miles": "mi"
+  },
+  "provenance": {
+    "live": "EN VIVO",
+    "recorded": "GRABADO",
+    "simulation": "SIMULACIÓN",
+    "sample": "EJEMPLO",
+    "unavailable": "NO DISPONIBLE"
+  },
+  "firstrun": {
+    "title": "Bienvenido a Harlem FloodEscape",
+    "body": "Este es un prototipo de investigación de la City University of New York. No es un servicio oficial de emergencias. En una emergencia, llame siempre al 911. Para alertas oficiales, use Notify NYC.",
+    "accept": "Entiendo"
+  },
+  "about": {
+    "title": "Acerca de esta aplicación",
+    "open": "Acerca de",
+    "prototype": "Harlem FloodEscape es un prototipo de investigación de CUNY, no un servicio oficial de emergencias. En una emergencia llame al 911. Para alertas oficiales use Notify NYC.",
+    "purpose": "Creada como parte de una investigación doctoral sobre el riesgo de inundaciones repentinas y la resiliencia comunitaria en East Harlem: las alertas deben ser rápidas e hiperlocales (las inundaciones registradas alcanzan su profundidad máxima en una mediana de 38 minutos), y los reportes comunitarios llenan los vacíos que los datos oficiales no captan.",
+    "privacy": "Su privacidad: todo lo que usted ingresa (plan, contactos, reportes, fotos) se queda solo en este dispositivo. Nada se sube a internet. Puede borrar todos sus datos en Mi Plan → Configuración.",
+    "attribution": "Richard Rivera, CUNY Graduate Center. Con el apoyo del Centro Cooperativo de Ciencias de NOAA para Ciencias del Sistema Terrestre y Tecnologías de Percepción Remota (CESSRST-II), Acuerdo Cooperativo #NA22SEC4810016 (NOAA EPP/MSI). Las declaraciones, hallazgos y conclusiones son del autor y no reflejan necesariamente la posición de NOAA.",
+    "credits": "Datos: NYC FloodNet · NYC OpenData (311) · NOAA / Servicio Meteorológico Nacional · Colaboradores de OpenStreetMap · Socios comunitarios: Community Board 11, WE ACT for Environmental Justice, Maggie's Magic Garden."
+  },
+  "status": {
+    "CALM": {
+      "title": "Tranquilo",
+      "desc": "No se detecta amenaza de inundación"
+    },
+    "WATCH": {
+      "title": "Vigilancia",
+      "desc": "Las condiciones favorecen inundaciones — manténgase atento"
+    },
+    "WARNING": {
+      "title": "Advertencia",
+      "desc": "Inundación probable o comenzando — actúe ahora"
+    },
+    "DANGER": {
+      "title": "Peligro",
+      "desc": "Inundación en curso — vaya a un lugar seguro"
+    },
+    "asOf": "al",
+    "source": {
+      "live": "Datos en vivo",
+      "scenario": "Datos de repetición",
+      "offline": "Datos en vivo no disponibles — mostrando el último estado conocido"
+    },
+    "reason": {
+      "calmDefault": "Sin alertas activas ni sensores inundados",
+      "nwsWarning": "Advertencia de inundación repentina del Servicio Meteorológico Nacional en efecto",
+      "nwsWatch": "Vigilancia de inundación del Servicio Meteorológico Nacional en efecto",
+      "sensorMinor": "Sensores cercanos reportan inundación menor en la calle",
+      "sensorDeep": "Profundidad del agua en sensor cercano por encima del borde de la acera",
+      "sensorVeryDeep": "Profundidad del agua en sensor cercano por encima de la puerta de un auto",
+      "reports": "Varios reportes comunitarios de inundación cerca",
+      "scenario": "Repetición de escenario en curso"
+    }
+  },
+  "home": {
+    "title": "Estado de inundación",
+    "context": {
+      "rain": "Lluvia (próxima hora)",
+      "rainNone": "No se espera lluvia",
+      "sensor": "Sensor más cercano",
+      "sensorDry": "Seco",
+      "reports": "Reportes comunitarios (3 h)",
+      "alertFeed": "Alertas del NWS"
+    },
+    "action": {
+      "calm": "Revisar mi plan",
+      "watch": "Revisar mi ruta",
+      "warning": "Ir a mi refugio seguro"
+    },
+    "demoButton": "Escenarios de demostración",
+    "demoButtonAria": "Abrir selector de escenarios de demostración"
+  },
+  "demo": {
+    "title": "Escenarios de demostración",
+    "intro": "Reproduzca eventos de inundación reales grabados, o ejecute una simulación de cómo se vería una tormenta similar en East Harlem.",
+    "exit": "Salir de la repetición",
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "speed": "Velocidad",
+    "scrub": "Línea de tiempo del escenario",
+    "bookmarks": "Momentos clave",
+    "watermarkRecorded": "REPETICIÓN — datos grabados del {date}",
+    "watermarkSimulation": "SIMULACIÓN — no es un evento real",
+    "start": "Iniciar repetición"
+  },
+  "scenario": {
+    "oct30": {
+      "name": "La marejada de octubre — 30 oct 2025",
+      "desc": "El peor día del registro: 896 quejas por inundación de calles y 128 sensores inundados en toda la ciudad. Datos grabados."
+    },
+    "may20": {
+      "name": "La inundación repentina de Jamaica — 20 may 2026",
+      "desc": "Cinco sensores pasaron de secos a 32–46 pulgadas en 12 minutos, cerca de las 7:20 PM. El agua más profunda registrada por FloodNet. Datos grabados."
+    },
+    "ehsim": {
+      "name": "¿Y si pasara aquí? — East Harlem",
+      "desc": "El patrón de la inundación del 20 de mayo trasladado a las calles bajas de East Harlem. Una simulación para planificar — no es un evento real."
+    },
+    "bm": {
+      "firstSensor": "Primer sensor se activa",
+      "danger": "Nivel de peligro alcanzado",
+      "deepest": "Agua más profunda"
+    }
+  },
+  "map": {
+    "title": "Mapa",
+    "layersTitle": "Capas del mapa",
+    "base": {
+      "title": "Mapa base",
+      "streets": "Calles",
+      "topo": "Terreno",
+      "satellite": "Satélite"
+    },
+    "layers": {
+      "hospital": "Hospitales",
+      "fire": "FDNY (bomberos)",
+      "police": "NYPD (policía)",
+      "shelter": "Refugios",
+      "subway": "Metro",
+      "highground": "Terreno alto",
+      "floodZones": "Zonas propensas a inundación",
+      "routes": "Rutas de evacuación",
+      "sensors": "Sensores de inundación",
+      "reports": "Reportes comunitarios",
+      "complaints": "Reportes 311 (repetición)"
+    },
+    "legend": {
+      "title": "Leyenda de rutas",
+      "safe": "Más segura — elevada",
+      "standard": "Ruta estándar",
+      "atRisk": "Propensa a inundación — evítela durante inundaciones"
+    },
+    "quick": {
+      "title": "Acciones rápidas",
+      "hospital": "Hospital más cercano",
+      "shelter": "Refugio más cercano",
+      "highground": "Terreno alto más cercano",
+      "routes": "Ver rutas de evacuación",
+      "locate": "Ubicarme"
+    },
+    "list": {
+      "show": "Ver como lista",
+      "name": "Nombre",
+      "distance": "Distancia",
+      "risk": "Riesgo de inundación",
+      "phone": "Teléfono",
+      "depth": "Profundidad",
+      "status": "Estado",
+      "time": "Hora"
+    },
+    "popup": {
+      "directions": "Cómo llegar",
+      "call": "Llamar",
+      "riskLabel": "Riesgo de inundación",
+      "elevation": "Elevación"
+    },
+    "risk": {
+      "low": "Bajo",
+      "moderate": "Moderado",
+      "high": "Alto"
+    },
+    "pet": {
+      "yes": "Se aceptan mascotas",
+      "no": "No se permiten mascotas",
+      "unknown": "Política de mascotas desconocida",
+      "sample": "ejemplo — verifique con el establecimiento"
+    },
+    "sensor": {
+      "dry": "Seco",
+      "minor": "Inundación menor",
+      "flooded": "Inundado",
+      "approx": "ubicación aproximada",
+      "depthLabel": "Profundidad del agua",
+      "liveNote": "Posiciones y estado de sensores en vivo de FloodNet. La profundidad en vivo no es pública — las profundidades aparecen en las repeticiones."
+    },
+    "offlineTiles": "Mapa base no disponible sin internet — las ubicaciones y rutas se siguen mostrando.",
+    "locateDenied": "Ubicación no disponible. Mostrando el centro de East Harlem.",
+    "youAreHere": "Usted está aquí",
+    "destinationRisk": "Atención: este destino tiene riesgo de inundación {risk}.",
+    "distanceAway": "a {dist} mi"
+  },
+  "report": {
+    "title": "Reportar inundación",
+    "intro": "Su reporte se convierte en un dato que ayuda a proteger al vecindario. Toma unos 10 segundos.",
+    "depthLegend": "¿Qué tan profunda está el agua?",
+    "depth": {
+      "ankle": "Hasta el tobillo",
+      "ankleDesc": "Unas 6 pulgadas (15 cm)",
+      "knee": "Hasta la rodilla",
+      "kneeDesc": "Unas 18 pulgadas (45 cm)",
+      "waist": "Hasta la cintura",
+      "waistDesc": "Unas 36 pulgadas (90 cm)"
+    },
+    "location": {
+      "label": "Ubicación",
+      "why": "Se usa solo para colocar su reporte en el mapa. Se queda en este dispositivo.",
+      "use": "Usar mi ubicación",
+      "pin": "Colocar un pin en el mapa",
+      "skip": "Omitir ubicación",
+      "set": "Ubicación establecida",
+      "none": "Sin ubicación"
+    },
+    "photo": {
+      "label": "Foto (opcional)",
+      "add": "Agregar foto",
+      "remove": "Quitar foto",
+      "note": "Las fotos se reducen de tamaño y se les elimina la información de ubicación antes de guardarse.",
+      "storageFull": "El almacenamiento de fotos está lleno — se eliminó la foto más antigua para hacer espacio."
+    },
+    "note": {
+      "label": "Nota (opcional)",
+      "count": "{n} caracteres restantes"
+    },
+    "safety": "Nunca entre en el agua para tomar una foto. Reporte solo lo que pueda ver desde un lugar seguro.",
+    "submit": "Enviar reporte",
+    "confirmTitle": "Reporte guardado",
+    "confirmBody": "Su reporte está en el mapa. En el programa completo, los reportes comunitarios calibrados como este se compartirían con los administradores de emergencias (protocolo SCI) — convirtiendo a los residentes en los sensores que le faltan a East Harlem.",
+    "clear": "Borrar mis reportes",
+    "clearConfirm": "¿Eliminar todos los reportes guardados en este dispositivo?",
+    "cleared": "Todos los reportes eliminados",
+    "pinLabel": "Reporte comunitario",
+    "justNow": "ahora mismo",
+    "minAgo": "hace {n} min",
+    "hoursAgo": "hace {n} h"
+  },
+  "plan": {
+    "title": "Mi Plan",
+    "intro": "Unos minutos en un día tranquilo son la protección contra inundaciones más barata que existe.",
+    "risk": {
+      "title": "Riesgo de inundación de mi cuadra",
+      "explain": "Coloque un pin en su cuadra para estimar el riesgo según la elevación y las zonas propensas a inundación.",
+      "pick": "Elegir mi ubicación",
+      "saved": "Ubicación guardada",
+      "resultLow": "Riesgo más bajo: su cuadra está a unos {ft} pies sobre el nivel del mar y no está en una zona propensa a inundación.",
+      "resultModerate": "Riesgo moderado: su cuadra está a unos {ft} pies sobre el nivel del mar. El agua aún puede acumularse con lluvias fuertes.",
+      "resultHigh": "Riesgo más alto: su cuadra está a unos {ft} pies sobre el nivel del mar y está en o cerca de una zona propensa a inundación.",
+      "disclaimer": "Estimación para demostración de investigación — no es una determinación de seguro ni de seguridad."
+    },
+    "haven": {
+      "title": "Mis refugios seguros",
+      "primary": "Principal",
+      "backup": "Alternativo",
+      "walk": "~{min} min a pie ({dist} mi)",
+      "needLocation": "Establezca su ubicación arriba para recibir sugerencias de refugios seguros."
+    },
+    "pet": {
+      "title": "Plan para mascotas",
+      "intro": "Las mascotas son familia. Sepa a dónde pueden ir antes de que suba el agua.",
+      "friendly": "Lugares cercanos que aceptan mascotas",
+      "checklist": "Mochila de emergencia para mascotas",
+      "items": {
+        "carrier": "Transportadora o jaula",
+        "leash": "Correa y collar con placa de identificación",
+        "food": "Comida y agua para 3 días",
+        "meds": "Medicamentos",
+        "records": "Registros de vacunación (una foto en su teléfono cuenta)",
+        "photo": "Una foto reciente de su mascota",
+        "litter": "Arena / bolsas para desechos"
+      }
+    },
+    "gobag": {
+      "title": "Mochila de emergencia",
+      "items": {
+        "documents": "Identificación y documentos importantes (bolsa impermeable)",
+        "meds": "Medicamentos y recetas",
+        "water": "Agua y comida ligera",
+        "flashlight": "Linterna",
+        "charger": "Cargador de teléfono / batería portátil",
+        "cash": "Algo de efectivo",
+        "contacts": "Lista escrita de contactos de emergencia",
+        "clothes": "Muda de ropa"
+      }
+    },
+    "before": {
+      "title": "Antes de la tormenta",
+      "items": {
+        "valuables": "Suba los objetos de valor y electrónicos del piso",
+        "charge": "Cargue teléfonos y baterías portátiles",
+        "shutoffs": "Sepa dónde cortar el gas y la electricidad",
+        "neighbors": "Verifique cómo están los vecinos mayores o con discapacidad",
+        "drains": "Limpie el drenaje de su esquina si es seguro hacerlo"
+      }
+    },
+    "contacts": {
+      "title": "Contactos del hogar",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "add": "Agregar contacto",
+      "remove": "Quitar",
+      "max": "Hasta 5 contactos, guardados solo en este dispositivo."
+    },
+    "print": "Imprimir mi plan",
+    "settings": {
+      "title": "Configuración",
+      "erase": "Borrar todos mis datos",
+      "eraseConfirm": "Esto elimina su plan, contactos, reportes y fotos de este dispositivo. No se puede deshacer.",
+      "erased": "Todos los datos borrados"
+    }
+  },
+  "footer": {
+    "line": "Prototipo de investigación · CUNY Graduate Center · NOAA CESSRST-II #NA22SEC4810016 · En una emergencia llame al 911"
+  }
+}

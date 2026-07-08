@@ -1,0 +1,14 @@
+{
+  "name": "harlem-floodescape",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "East Harlem flood resiliency demo prototype (research, CUNY / NOAA CESSRST-II)",
+  "scripts": {
+    "test": "node --test tests/i18n.test.mjs tests/storage.test.mjs tests/status-engine.test.mjs",
+    "data": "python tools/build_data.py"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.3.0"
+  }
+}

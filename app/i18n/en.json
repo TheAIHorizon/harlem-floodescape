@@ -1,0 +1,346 @@
+{
+  "app": {
+    "name": "Harlem FloodEscape",
+    "tagline": "East Harlem flood resiliency — El Barrio"
+  },
+  "nav": {
+    "home": "Home",
+    "map": "Map",
+    "report": "Report",
+    "plan": "My Plan"
+  },
+  "lang": {
+    "toggleAria": "Switch language. Current language: English",
+    "en": "EN",
+    "es": "ES"
+  },
+  "theme": {
+    "toggle": "Theme",
+    "toggleAria": "Toggle light or dark theme"
+  },
+  "a11y": {
+    "skip": "Skip to main content",
+    "statusLive": "Flood status announcements",
+    "updatesLive": "App updates",
+    "mainNav": "Main navigation",
+    "closeDialog": "Close dialog"
+  },
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "loading": "Loading…",
+    "unavailable": "Unavailable",
+    "error": "Something went wrong",
+    "back": "Back",
+    "in": "in",
+    "cm": "cm",
+    "minutes": "min",
+    "miles": "mi"
+  },
+  "provenance": {
+    "live": "LIVE",
+    "recorded": "RECORDED",
+    "simulation": "SIMULATION",
+    "sample": "SAMPLE",
+    "unavailable": "UNAVAILABLE"
+  },
+  "firstrun": {
+    "title": "Welcome to Harlem FloodEscape",
+    "body": "This is a research prototype from the City University of New York. It is not an official emergency service. In an emergency, always call 911. For official alerts, use Notify NYC.",
+    "accept": "I understand"
+  },
+  "about": {
+    "title": "About this app",
+    "open": "About",
+    "prototype": "Harlem FloodEscape is a research prototype from CUNY, not an official emergency service. In an emergency call 911. For official alerts use Notify NYC.",
+    "purpose": "Built as part of dissertation research on flash-flood risk and community resilience in East Harlem: warnings must be fast and hyperlocal (recorded floods reach peak depth in a median of 38 minutes), and community reports fill the gaps official data misses.",
+    "privacy": "Your privacy: everything you enter (plan, contacts, reports, photos) stays on this device only. Nothing is uploaded. You can erase all data anytime in My Plan → Settings.",
+    "attribution": "Richard Rivera, CUNY Graduate Center. Supported by the NOAA Cooperative Science Center for Earth System Sciences and Remote Sensing Technologies (CESSRST-II), Cooperative Agreement #NA22SEC4810016 (NOAA EPP/MSI). The statements, findings, and conclusions are those of the author and do not necessarily reflect the views of NOAA.",
+    "credits": "Data: NYC FloodNet · NYC OpenData (311) · NOAA / National Weather Service · OpenStreetMap contributors · Community partners: Community Board 11, WE ACT for Environmental Justice, Maggie's Magic Garden."
+  },
+  "status": {
+    "CALM": {
+      "title": "Calm",
+      "desc": "No flood threat detected"
+    },
+    "WATCH": {
+      "title": "Watch",
+      "desc": "Conditions favor flooding — stay aware"
+    },
+    "WARNING": {
+      "title": "Warning",
+      "desc": "Flooding likely or beginning — act now"
+    },
+    "DANGER": {
+      "title": "Danger",
+      "desc": "Flooding in progress — move to safety"
+    },
+    "asOf": "as of",
+    "source": {
+      "live": "Live data",
+      "scenario": "Replay data",
+      "offline": "Live data unavailable — showing last known state"
+    },
+    "reason": {
+      "calmDefault": "No active alerts or sensor flooding",
+      "nwsWarning": "National Weather Service Flash Flood Warning in effect",
+      "nwsWatch": "National Weather Service Flood Watch in effect",
+      "sensorMinor": "Nearby sensors reporting minor street flooding",
+      "sensorDeep": "Nearby sensor water depth above curb height",
+      "sensorVeryDeep": "Nearby sensor water depth above car-door height",
+      "reports": "Multiple community flood reports nearby",
+      "scenario": "Scenario replay in progress"
+    }
+  },
+  "home": {
+    "title": "Flood status",
+    "context": {
+      "rain": "Rain (next hour)",
+      "rainNone": "No rain expected",
+      "sensor": "Nearest sensor",
+      "sensorDry": "Dry",
+      "reports": "Community reports (3 h)",
+      "alertFeed": "NWS alert feed"
+    },
+    "action": {
+      "calm": "Review my plan",
+      "watch": "Check my route",
+      "warning": "Go to my safe haven"
+    },
+    "demoButton": "Demo scenarios",
+    "demoButtonAria": "Open demo scenario picker"
+  },
+  "demo": {
+    "title": "Demo scenarios",
+    "intro": "Replay real recorded flood events, or run a simulation of what a similar storm could look like in East Harlem.",
+    "exit": "Exit replay",
+    "play": "Play",
+    "pause": "Pause",
+    "speed": "Speed",
+    "scrub": "Scenario timeline",
+    "bookmarks": "Key moments",
+    "watermarkRecorded": "REPLAY — recorded data from {date}",
+    "watermarkSimulation": "SIMULATION — not a real event",
+    "start": "Start replay"
+  },
+  "scenario": {
+    "oct30": {
+      "name": "The October Surge — Oct 30, 2025",
+      "desc": "The single worst day in the record: 896 street-flooding complaints and 128 sensor floods across the city. Recorded data."
+    },
+    "may20": {
+      "name": "The Jamaica Flash Flood — May 20, 2026",
+      "desc": "Five sensors went from dry to 32–46 inches within 12 minutes, around 7:20 PM. The deepest water ever recorded by FloodNet. Recorded data."
+    },
+    "ehsim": {
+      "name": "What if it happened here? — East Harlem",
+      "desc": "The May 20 flood pattern transposed onto East Harlem's low-lying streets. A simulation for planning — not a real event."
+    },
+    "bm": {
+      "firstSensor": "First sensor triggers",
+      "danger": "Danger level reached",
+      "deepest": "Deepest water"
+    }
+  },
+  "map": {
+    "title": "Map",
+    "layersTitle": "Map layers",
+    "base": {
+      "title": "Base map",
+      "streets": "Streets",
+      "topo": "Terrain",
+      "satellite": "Satellite"
+    },
+    "layers": {
+      "hospital": "Hospitals",
+      "fire": "FDNY",
+      "police": "NYPD",
+      "shelter": "Shelters",
+      "subway": "Subway",
+      "highground": "High ground",
+      "floodZones": "Flood-prone areas",
+      "routes": "Evacuation routes",
+      "sensors": "Flood sensors",
+      "reports": "Community reports",
+      "complaints": "311 reports (replay)"
+    },
+    "legend": {
+      "title": "Route legend",
+      "safe": "Safer — elevated",
+      "standard": "Standard route",
+      "atRisk": "Flood-prone — avoid in flooding"
+    },
+    "quick": {
+      "title": "Quick actions",
+      "hospital": "Nearest hospital",
+      "shelter": "Nearest shelter",
+      "highground": "Nearest high ground",
+      "routes": "Show evac routes",
+      "locate": "Locate me"
+    },
+    "list": {
+      "show": "List view",
+      "name": "Name",
+      "distance": "Distance",
+      "risk": "Flood risk",
+      "phone": "Phone",
+      "depth": "Depth",
+      "status": "Status",
+      "time": "Time"
+    },
+    "popup": {
+      "directions": "Directions",
+      "call": "Call",
+      "riskLabel": "Flood risk",
+      "elevation": "Elevation"
+    },
+    "risk": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High"
+    },
+    "pet": {
+      "yes": "Pets welcome",
+      "no": "No pets",
+      "unknown": "Pet policy unknown",
+      "sample": "sample — verify with facility"
+    },
+    "sensor": {
+      "dry": "Dry",
+      "minor": "Minor flooding",
+      "flooded": "Flooded",
+      "approx": "approximate location",
+      "depthLabel": "Water depth",
+      "liveNote": "Live sensor positions and status from FloodNet. Live water depth is not public — depths appear in replays."
+    },
+    "offlineTiles": "Map tiles unavailable offline — locations and routes still shown.",
+    "locateDenied": "Location unavailable. Showing East Harlem center instead.",
+    "youAreHere": "You are here",
+    "destinationRisk": "Heads up: this destination has {risk} flood risk.",
+    "distanceAway": "{dist} mi away"
+  },
+  "report": {
+    "title": "Report flooding",
+    "intro": "Your report becomes a data point that helps protect the neighborhood. It takes about 10 seconds.",
+    "depthLegend": "How deep is the water?",
+    "depth": {
+      "ankle": "Ankle-deep",
+      "ankleDesc": "About 6 inches (15 cm)",
+      "knee": "Knee-deep",
+      "kneeDesc": "About 18 inches (45 cm)",
+      "waist": "Waist-deep",
+      "waistDesc": "About 36 inches (90 cm)"
+    },
+    "location": {
+      "label": "Location",
+      "why": "Used only to place your report on the map. It stays on this device.",
+      "use": "Use my location",
+      "pin": "Drop a pin on the map",
+      "skip": "Skip location",
+      "set": "Location set",
+      "none": "No location"
+    },
+    "photo": {
+      "label": "Photo (optional)",
+      "add": "Add photo",
+      "remove": "Remove photo",
+      "note": "Photos are resized and location metadata is removed before saving.",
+      "storageFull": "Photo storage is full — the oldest photo was removed to make room."
+    },
+    "note": {
+      "label": "Note (optional)",
+      "count": "{n} characters left"
+    },
+    "safety": "Never enter floodwater to take a photo. Report only what you can see from a safe place.",
+    "submit": "Submit report",
+    "confirmTitle": "Report saved",
+    "confirmBody": "Your report is on the map. In the full program, calibrated community reports like this one would be shared with emergency managers (SCI protocol) — turning residents into the sensors East Harlem lacks.",
+    "clear": "Clear my reports",
+    "clearConfirm": "Delete all reports stored on this device?",
+    "cleared": "All reports deleted",
+    "pinLabel": "Community report",
+    "justNow": "just now",
+    "minAgo": "{n} min ago",
+    "hoursAgo": "{n} h ago"
+  },
+  "plan": {
+    "title": "My Plan",
+    "intro": "A few minutes on a calm day is the cheapest flood protection there is.",
+    "risk": {
+      "title": "My block's flood risk",
+      "explain": "Drop a pin on your block to estimate risk from elevation and mapped flood-prone areas.",
+      "pick": "Pick my location",
+      "saved": "Saved location",
+      "resultLow": "Lower risk: your block sits about {ft} ft above sea level and is not in a mapped flood-prone area.",
+      "resultModerate": "Moderate risk: your block sits about {ft} ft above sea level. Water can still pool in heavy rain.",
+      "resultHigh": "Higher risk: your block sits about {ft} ft above sea level and is in or near a mapped flood-prone area.",
+      "disclaimer": "Estimate for research demonstration — not a flood insurance or safety determination."
+    },
+    "haven": {
+      "title": "My safe havens",
+      "primary": "Primary",
+      "backup": "Backup",
+      "walk": "~{min} min walk ({dist} mi)",
+      "needLocation": "Set your location above to get safe haven suggestions."
+    },
+    "pet": {
+      "title": "Pet plan",
+      "intro": "Pets are family. Know where they can go before the water rises.",
+      "friendly": "Pet-friendly locations nearby",
+      "checklist": "Pet go-bag",
+      "items": {
+        "carrier": "Carrier or crate",
+        "leash": "Leash and collar with ID tag",
+        "food": "3 days of food and water",
+        "meds": "Medications",
+        "records": "Vaccination records (photo on your phone counts)",
+        "photo": "A current photo of your pet",
+        "litter": "Litter / waste bags"
+      }
+    },
+    "gobag": {
+      "title": "Go-bag checklist",
+      "items": {
+        "documents": "ID and important documents (waterproof bag)",
+        "meds": "Medications and prescriptions",
+        "water": "Water and snacks",
+        "flashlight": "Flashlight",
+        "charger": "Phone charger / power bank",
+        "cash": "Some cash",
+        "contacts": "Written list of emergency contacts",
+        "clothes": "Change of clothes"
+      }
+    },
+    "before": {
+      "title": "Before the storm",
+      "items": {
+        "valuables": "Move valuables and electronics up off the floor",
+        "charge": "Charge phones and power banks",
+        "shutoffs": "Know your gas and electric shutoffs",
+        "neighbors": "Check on elderly or disabled neighbors",
+        "drains": "Clear the storm drain on your corner if safe"
+      }
+    },
+    "contacts": {
+      "title": "Household contacts",
+      "name": "Name",
+      "phone": "Phone",
+      "add": "Add contact",
+      "remove": "Remove",
+      "max": "Up to 5 contacts, stored only on this device."
+    },
+    "print": "Print my plan",
+    "settings": {
+      "title": "Settings",
+      "erase": "Erase all my data",
+      "eraseConfirm": "This deletes your plan, contacts, reports, and photos from this device. There is no undo.",
+      "erased": "All data erased"
+    }
+  },
+  "footer": {
+    "line": "Research prototype · CUNY Graduate Center · NOAA CESSRST-II #NA22SEC4810016 · In an emergency call 911"
+  }
+}

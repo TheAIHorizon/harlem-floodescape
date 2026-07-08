@@ -1,0 +1,102 @@
+/* Design tokens — light + dark, WCAG AA pairs (PRD §8). */
+:root {
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --surface-2: #eef1f4;
+  --ink: #16212b;
+  --ink-2: #46545f;
+  --ink-3: #5f6d78;
+  --border: #d4dbe1;
+  --accent: #0b5d8a;
+  --accent-ink: #ffffff;
+  --focus: #b45309;
+
+  /* status pairs: bg + ink meet 4.5:1 */
+  --calm-bg: #d8efdf;
+  --calm-ink: #0c5226;
+  --calm-strong: #0e7a37;
+  --watch-bg: #fdf1c7;
+  --watch-ink: #6b5300;
+  --watch-strong: #8a6d00;
+  --warning-bg: #ffe3cc;
+  --warning-ink: #7c3a00;
+  --warning-strong: #b45309;
+  --danger-bg: #fcdcdc;
+  --danger-ink: #7f1414;
+  --danger-strong: #b91c1c;
+
+  --risk-low: var(--calm-strong);
+  --risk-moderate: var(--warning-strong);
+  --risk-high: var(--danger-strong);
+
+  --route-safe: #0e7a37;
+  --route-standard: #8a6d00;
+  --route-atrisk: #b45309;
+
+  --shadow: 0 2px 10px rgba(10, 20, 30, 0.12);
+  --radius: 12px;
+  --tap: 44px;
+}
+
+[data-theme="dark"] {
+  --bg: #10161c;
+  --surface: #1a232c;
+  --surface-2: #232e39;
+  --ink: #eef3f7;
+  --ink-2: #b9c6d0;
+  --ink-3: #93a3af;
+  --border: #37444f;
+  --accent: #58a8d6;
+  --accent-ink: #0c1319;
+  --focus: #f2b04a;
+
+  --calm-bg: #123723;
+  --calm-ink: #a4e0b8;
+  --calm-strong: #4cc274;
+  --watch-bg: #3a3210;
+  --watch-ink: #f0d878;
+  --watch-strong: #d9b93a;
+  --warning-bg: #47280e;
+  --warning-ink: #ffc899;
+  --warning-strong: #f0913d;
+  --danger-bg: #461518;
+  --danger-ink: #ffb3b3;
+  --danger-strong: #f26d6d;
+
+  --route-safe: #4cc274;
+  --route-standard: #d9b93a;
+  --route-atrisk: #f0913d;
+
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10161c;
+    --surface: #1a232c;
+    --surface-2: #232e39;
+    --ink: #eef3f7;
+    --ink-2: #b9c6d0;
+    --ink-3: #93a3af;
+    --border: #37444f;
+    --accent: #58a8d6;
+    --accent-ink: #0c1319;
+    --focus: #f2b04a;
+    --calm-bg: #123723;
+    --calm-ink: #a4e0b8;
+    --calm-strong: #4cc274;
+    --watch-bg: #3a3210;
+    --watch-ink: #f0d878;
+    --watch-strong: #d9b93a;
+    --warning-bg: #47280e;
+    --warning-ink: #ffc899;
+    --warning-strong: #f0913d;
+    --danger-bg: #461518;
+    --danger-ink: #ffb3b3;
+    --danger-strong: #f26d6d;
+    --route-safe: #4cc274;
+    --route-standard: #d9b93a;
+    --route-atrisk: #f0913d;
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+}

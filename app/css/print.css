@@ -1,0 +1,54 @@
+/* Print stylesheet — "Print my plan" renders a clean 1–2 page document (F-4.6).
+ * Paper is an equity and accessibility feature.
+ */
+@media print {
+  .app-header,
+  .tabbar,
+  .watermark,
+  .toast-region,
+  dialog,
+  .no-print,
+  #view-home,
+  #view-map,
+  #view-report {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 12pt;
+  }
+
+  #view-plan {
+    display: block !important;
+    padding: 0;
+    max-width: none;
+  }
+
+  .card {
+    box-shadow: none;
+    border: 1px solid #999;
+    break-inside: avoid;
+    margin-bottom: 10pt;
+  }
+
+  #plan-minimap { display: none; }
+  .btn { display: none; }
+  input[type="text"], input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid #999;
+    border-radius: 0;
+    padding: 2pt 0;
+  }
+  .check-list input { width: 12pt; height: 12pt; }
+  .check-list input:checked + span { text-decoration: none; color: #000; }
+
+  footer.app-footer {
+    display: block;
+    border-top: 1px solid #999;
+    margin-top: 12pt;
+    padding-top: 6pt;
+    font-size: 9pt;
+  }
+}
